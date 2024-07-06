@@ -1,0 +1,234 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    background-color: black;
+}
+
+.container-home{
+    margin-top: -40px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    margin-top: 10%; 
+}
+.h1-con{
+    margin-top: 40px;
+    padding: 20px;
+    padding-left: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.h1-nav{
+    color: blue;
+
+}
+.h1-span{
+    color: red;
+
+}
+.img-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.p-home{
+    font-size: 20px;
+   color: white;
+   padding-bottom: 10%;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(83, 78, 78, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay-content a {
+    padding: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 66px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay-content a:hover, .overlay-content a:focus {
+   color: white;
+}
+
+.closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: #C850C0;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.closebtn:hover, .closebtn:focus {
+    color: #f1f1f1;
+}
+
+.openbtn {
+    margin-right: 30px;
+    
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.openbtn:hover {
+    color: #000;
+}
+
+.second{
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+    
+
+}
+.h1-sec{
+   
+ gap: 20px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding-bottom: 20px;
+}
+
+.h1-sec2{
+    margin-bottom: 20px;
+    margin-top: -20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.span-sec{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sec-line{
+  height: 4px;
+  width: 17%;
+  background-color: white;
+  border-radius: 20px;
+  
+ 
+}
+
+.sec-p{
+   
+    margin-top: 20px;
+    width: 70%;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sec-vidio{
+    margin-top: 30px;
+    gap: 15px;
+}
+
+.flex-row{
+    display: flex;
+    width: 80%;
+    gap: 15px;
+
+    
+}
+.sec-p-3{
+    margin-top: 40px;
+    font-size: 18px;
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+.scroll-container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-top: 20px;
+   
+}
+
+.image-bar {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.image-box {
+    flex: none;
+    margin-right: 10px;
+    
+}
+
+.image-box img {
+    display: block;
+    margin-left: 20px;
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
+    border: 2px solid #333;
+    border-radius: 20px;
+}
+
+.scroll-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.scroll-btn:focus {
+    outline: none;
+}
+
+.contact{
+    margin-top: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form{
+    margin-top: 30px;
+}
