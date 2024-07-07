@@ -342,15 +342,7 @@ body {
         gap: 10px;
     }
 
-    .image-box img {
-        width: 100%;
-        height: auto;
-        margin-left: 0;
-    }
-
-    .scroll-container {
-        width: 100%;
-    }
+    
 
     .sec-p {
         width: 90%;
