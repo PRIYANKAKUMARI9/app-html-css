@@ -8,8 +8,12 @@
 </head>
 <body>
     <div class="container-home">
+      
        <div class="h1-con">
+        <div class="top-nav">
         <h1 class="h1-nav">WHIT<span class="h1-span">EFX</span></h1>
+        <img  fetchpriority="high" decoding="async" width="167" height="80" src="https://whitefx.co/wp-content/uploads/2023/10/WhiteFX-TPN.png" class="attachment-full size-full wp-image-22398" alt="" srcset="https://whitefx.co/wp-content/uploads/2023/10/WhiteFX-TPN.png 1197w, https://whitefx.co/wp-content/uploads/2023/10/WhiteFX-TPN-300x140.png 300w, https://whitefx.co/wp-content/uploads/2023/10/WhiteFX-TPN-1024x479.png 1024w, https://whitefx.co/wp-content/uploads/2023/10/WhiteFX-TPN-768x359.png 768w, https://whitefx.co/wp-content/uploads/2023/10/WhiteFX-TPN-600x281.png 600w" sizes="(max-width: 1197px) 100vw, 1197px">
+        </div>
         <div id="myNav" class="overlay">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <div class="overlay-content">
@@ -24,7 +28,7 @@
        </div>
         <div class="home">
             <div class="img-home">
-                <img  decoding="async" width="750" height="282" src="https://whitefx.co/wp-content/uploads/2024/05/WHITEFX_PNG-01__1_-removebg-preview-1.png" class="attachment-full size-full wp-image-22741" alt="" srcset="https://whitefx.co/wp-content/uploads/2024/05/WHITEFX_PNG-01__1_-removebg-preview-1.png 550w, https://whitefx.co/wp-content/uploads/2024/05/WHITEFX_PNG-01__1_-removebg-preview-1-300x99.png 300w" sizes="(max-width: 550px) 100vw, 550px">
+                <img class="responsive-img" width="750" height="282" src="https://whitefx.co/wp-content/uploads/2024/05/WHITEFX_PNG-01__1_-removebg-preview-1.png" class="attachment-full size-full wp-image-22741" alt="" srcset="https://whitefx.co/wp-content/uploads/2024/05/WHITEFX_PNG-01__1_-removebg-preview-1.png 550w, https://whitefx.co/wp-content/uploads/2024/05/WHITEFX_PNG-01__1_-removebg-preview-1-300x99.png 300w" sizes="(max-width: 550px) 100vw, 550px">
 
             </div>
              <p class="p-home">Feature Films | Episodic Series | Commercials</p>
@@ -67,7 +71,7 @@
     <h1 class="h1-sec">Your<span class="span-sec"> Trusted Partner</span></h1>
     <div class="sec-line"></div>
     <div class="flex-row">
-        <img fetchpriority="high" decoding="async" width="497" height="260" src="https://whitefx.co/wp-content/uploads/2023/10/WhiteFX-TPN.png" class="attachment-full size-full wp-image-22398" alt="" srcset="https://whitefx.co/wp-content/uploads/2023/10/WhiteFX-TPN.png 1197w, https://whitefx.co/wp-content/uploads/2023/10/WhiteFX-TPN-300x140.png 300w, https://whitefx.co/wp-content/uploads/2023/10/WhiteFX-TPN-1024x479.png 1024w, https://whitefx.co/wp-content/uploads/2023/10/WhiteFX-TPN-768x359.png 768w, https://whitefx.co/wp-content/uploads/2023/10/WhiteFX-TPN-600x281.png 600w" sizes="(max-width: 1197px) 100vw, 1197px">
+        <img class="middle-img" fetchpriority="high" decoding="async" width="497" height="260" src="https://whitefx.co/wp-content/uploads/2023/10/WhiteFX-TPN.png" class="attachment-full size-full wp-image-22398" alt="" srcset="https://whitefx.co/wp-content/uploads/2023/10/WhiteFX-TPN.png 1197w, https://whitefx.co/wp-content/uploads/2023/10/WhiteFX-TPN-300x140.png 300w, https://whitefx.co/wp-content/uploads/2023/10/WhiteFX-TPN-1024x479.png 1024w, https://whitefx.co/wp-content/uploads/2023/10/WhiteFX-TPN-768x359.png 768w, https://whitefx.co/wp-content/uploads/2023/10/WhiteFX-TPN-600x281.png 600w" sizes="(max-width: 1197px) 100vw, 1197px">
     <p class="sec-p-3">
         At WhiteFX Studio, we believe trust is cultivated through tangible actions, and our TPN assessment serves as a resounding declaration of our unwavering commitment to safeguarding your data. It stands as undeniable proof of our relentless dedication to delivering the utmost level of content security. Your trust is of immeasurable worth to us, and we remain steadfast in our mission to protect your valuable data.
     </p>
@@ -89,6 +93,7 @@
             <div class="image-box"><img src="fireimg.jpg" alt="Image 1"></div>
             <div class="image-box"><img src="men.jpg" alt="Image 2"></div>
             
+            
             <!-- Add more image boxes as needed -->
         </div>
         <button class="scroll-btn" id="scroll-right">&gt;</button>
@@ -99,12 +104,25 @@
 <div class="second">
     <h1 class="h1-sec">By all means, send us an email and get in touch</h1>
     <div class="sec-line"></div>
-   <div class="form">
-    <form action="">
-        <label for="">name</label>
-        
-   </div>
-   </form>
+    <div class="container">
+        <form class="contact-form">
+            <h2>Contact Us</h2>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
     
 </div>
 
